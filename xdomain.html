@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <script type="text/javascript">
+    	function load(){
+    		if (location.hash.length){
+        		var data = location.hash.substr(1).split(',');
+        		var title = decodeURIComponent(data[0]);
+        		var thumb = decodeURIComponent(data[1]);
+    			var url = decodeURIComponent(data[2]);
+    			
+    			try{
+        			var form = window.top.document.getElementById("w2eForm");
+        			if (form){
+            			var doc = window.top.document;
+            			doc.getElementById("publish").removeAttribute("disabled");
+            			doc.getElementById("save").removeAttribute("disabled");
+            			doc.getElementById("w2efile").setAttribute("value", title);
+            			doc.getElementById("w2ethumb").setAttribute("value", thumb);
+            			doc.getElementById("w2eurl").setAttribute("value", url);
+        			}
+				}
+				catch (ex){
+					var form = window.top.document.getElementById("w2eForm");
+        			if (form){
+            			var doc = parent.parent.document;
+            			doc.getElementById("publish").removeAttribute("disabled");
+            			doc.getElementById("save").removeAttribute("disabled");
+            			doc.getElementById("w2efile").setAttribute("value", title);
+            			doc.getElementById("w2ethumb").setAttribute("value", thumb);
+            			doc.getElementById("w2eurl").setAttribute("value", url);
+					}
+				}
+    		}
+    	}
+    </script>    
+  </head>
+  <body style="background:white" onload="load()">
+  </body>
+</html>
