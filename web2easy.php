@@ -23,7 +23,7 @@
 Plugin Name: Web2easy
 Plugin URI: http://web2easy.com
 Description: A simple, powerful and elegant Wordpress editor which creates the most wonderful blog posts imaginable. You'll never use a standard editor again.
-Version: 0.1
+Version: 0.1.1
 Author: Just2easy
 Author URI: http://www.just2easy.com
 License: GPL2
