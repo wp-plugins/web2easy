@@ -56,12 +56,19 @@ No, all your blog posts will be saved as online files at [Web2easy](http://web2e
 == Arbitrary section ==
 
 Web2easy is an online document creator that uses html5 technology to edit the html directly on your web browser.
+
 It is currently in a **beta** state and we are continually updating and fixing issues that have been found. We would advise using Chrome as the browser of choice for creating documents.
 Some features that Web2easy has include:
+
 * Click anywhere on the page and type
+
 * Select the text and re-size with the corner tags, you can also rotate the text with the centre tag.
+
 * Drag pictures from your desktop onto the page, then crop size, rotate and edit using the panel on the right.
+
 * Clicking the pictures button opens a panel on the right that contains your photos, you can drag images onto the panel for storage and use at a later date. There is also a Facebook button on this panel to connect you to your Facebook photos to use on the page.
+
 * Use the pen and shape tools to draw on the page, colours and options to change any tools can be selected from the right panel.
+
 * After validating your email address, by clicking the link sent to you, you can save and load your old files.
 
