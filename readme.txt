@@ -19,6 +19,8 @@ Why struggle with css, html source and old standard editors?
 
 Stand out from the crowd with **Web2easy**.
 
+Click [here](http://www.just2easy.com/Vids/Web2easy/ "Web2easy Video") to see a brief video demonstrating how to use the *Web2easy* editor.
+
 == Installation ==
 
 To install manually then follow these instructions:
